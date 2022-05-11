@@ -124,3 +124,63 @@
 - Fixes a bug on 0.15.3 that prevented the script to finish
 - Amber Elec Hotkeys configured for almost all emulators
 - Hotkeys and Emulators cheatsheet available on github: https://github.com/dragoonDorise/EmuDeck
+
+  0.15.5
+
+- More PS1 formats supported. Thanks to https://github.com/Godsbane
+- SRM always up to date. Thanks to https://github.com/Nikki1993
+- Fixed Atary Linx
+- Fixed symlinks repeating itselfs inside folders
+- Fixes RA save configuration file issue
+- Removes symlinks for MegaDrive y MegaCD
+- Fixed recursive symlinks on yuzu folders
+- Added 3DO support
+- Fixed issues with bios paths when using internal storage
+- Better BIOS detection for PS1 and PS2
+- Fixes autoload / autosave option on RetroArch
+
+  0.16
+
+- Fixes Nes Bezels when using Mesen Core
+- Fixes RA warning "Controller not configured, using fallback"
+- Showing latest changelog when updating EmuDeck
+- New Easy mode - 100% Plug and play for non tech savvy users.
+- New Expert mode - Power users can now customize EmuDeck installations:
+
+  - Choose what Emulators to install
+  - Choose if you want to keep your configuration or if you want EmuDeck to overwrite it.
+  - RA configuration: Bezels ON/OFF Autosave ON/OFF
+  - Allows users to be able to save its own RA configuration ( Bezels needs to be turned OFF, it's a RA Bug)
+  - This mode will allow a lot more in the future: Use non EXT4 SD Cards, use experimental emulators, choose different frontends, etc.
+
+    0.16.2
+
+- Cemu installation fixes
+
+  0.17
+
+- Added Beta and Dev release channels
+- ESDE Downloaded data moved to SD Card if the user chose SD card on install
+- Uninstall icon for those that want to uninstall EmuDeck
+- Updated Icon with current version installed
+- Fixes Bezels and Autosave configuration
+- Added Xemu emulator support - Godsbane
+- Enabled rumble motor on Dolphin
+- Improved SD Card detection - Godsbane
+- Added .wua support for upcoming Cemu 1.27 - v-tron
+
+  0.17.1
+
+- New Emulation/saves folder so you can sync your saved games and states using Dropbox or similar
+- Snes Aspect Ratio selection (4:3 or 8:7)
+- Widescreen Hacks selection (Flycast RA, Dolphin, DuckStation)
+- CHD Conversion script
+- Support for PowerTools on Expert Mode - Improves Yuzu and Dolphin performance
+- Added support for DualShock 4 and DualSense controllers for player 2 and 3
+- Wii U Rom folder creation fix
+- Fixed PrimeHack SRM config - Godsbane
+- Fixed PS1 SRM parsers to avoid duplicated titles - Godsbane
+- Fixed PrimeHack controller config
+- Fixes for people with custom flathubs repos - Godsbane
+- New SD Card detection method ( BTRFS Support is back ) - popsUlfr + Godsbane
+- Added Emulators parser on SRM
